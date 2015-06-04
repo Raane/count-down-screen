@@ -11,7 +11,7 @@ resizeCanvas();
 function drawStuff() {
   function clock() {
     var from = new Date("2015-1-15 08:00:00");
-    var to = new Date("2015-6-11 16:00:00");
+    var to = new Date("2015-6-18 16:00:00");
     var now = new Date();
     var ctx = document.getElementById('canvas').getContext('2d');
     ctx.save();
